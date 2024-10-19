@@ -1,0 +1,53 @@
+.trainer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem; /* increased padding for a more spacious vintage feel */
+  border-radius: 10px; /* more rounded corners for a softer look */
+  border: 8px solid #d1a573; /* warm brownish border for vintage style */
+  background-color: #f5e3c3; /* soft beige background for retro aesthetic */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* deeper shadow for a classic card effect */
+  background-size: 200% 200%;
+  position: relative;
+  color: #5e412f; /* dark brown color for vintage text feel */
+  font-family: 'Georgia', serif; /* retro serif font */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+    background-position 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+  &:hover {
+    /* subtle hover effect without modern rotation */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* slightly stronger shadow on hover */
+    border-color: #c79655; /* darkened border color on hover */
+  }
+
+  img {
+    width: 90%; /* slightly smaller to add more margin */
+    max-height: 14rem; /* reduced height for vintage proportions */
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px; /* slight rounding for vintage photo feel */
+  }
+
+  a {
+    color: #b08968; /* vintage yellow-brown color for links */
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline; /* underline on hover for retro feel */
+    }
+  }
+
+  .trainer-card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .btn {
+    z-index: 3;
+  }
+}

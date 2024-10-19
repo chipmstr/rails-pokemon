@@ -1,0 +1,12 @@
+.grid {
+  display: grid; /* using grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(18ch, 1fr)); /* increased minimum size for a more spacious layout */
+  gap: 1.5rem; /* increased gap between grid items for a more relaxed look */
+  background-color: #f5e3c3; /* soft beige background for vintage aesthetic */
+  padding: 2rem; /* adding padding around the grid for a framed look */
+  border: 3px solid #d1a573; /* warm brownish border to enhance vintage feel */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* soft shadow for depth */
+  border-radius: 10px; /* rounded corners for a softer, retro appearance */
+  background-image: url('faded-pattern.png'); /* optional faded background pattern for texture */
+  background-blend-mode: multiply; /* blend the pattern for a more subtle look */
+}

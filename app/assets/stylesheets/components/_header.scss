@@ -1,0 +1,77 @@
+.header {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #f5e3c3;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #d1a573;
+}
+
+.header a {
+  font-size: 1.2rem;
+  color: #b08968;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive; /* pixelated retro font */
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background-color: #f5e3c3;
+  padding: 2rem;
+  border: 2px solid #d1a573;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.pokemon-details {
+  font-size: 1.2rem;
+  color: #5e412f;
+  font-family: 'Press Start 2P', cursive; /* pixelated retro font */
+}
+
+.pokemon-details p {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #5e412f;
+  font-family: 'Press Start 2P', cursive; /* pixelated retro font */
+  margin-bottom: 1rem;
+}
+
+input, select {
+  font-size: 1rem;
+  border: 2px solid #d1a573;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+input:focus, select:focus {
+  border-color: #c79655;
+}
+
+.btn-primary {
+  background-color: #b08968;
+  border-color: #b08968;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  transform: rotate3d(1, 0.5, 0.1, 20deg); /* bring back the 3D rotation effect on hover */
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  background-position: 100% 50%;
+  border-color: #f7d25e;
+}

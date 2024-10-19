@@ -1,0 +1,27 @@
+<header class="header">
+  <h1>Pokédex</h1>
+
+  <%= link_to "Trainers", trainers_path, class: "nav-link" %>
+  <%= link_to "Random Pokémon", random_pokemons_path, class: "nav-link" %>
+
+  <%= form_with url: root_path, method: :get do |f| %>
+    <div class="input-group">
+      <div class="form-floating">
+        <%= f.text_field :search, placeholder: "Jigglypuff", class: "form-control", value: params[:search] %>
+        <%= f.label :search, "Search for a Pokémon" %>
+      </div>
+      <%= f.submit "Search", class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</header>
+
+<% if @pokemons.exists? %>
+  <div class="grid">
+    <% @pokemons.each do |pokemon| %>
+      <%= render pokemon %>
+    <% end %>
+  </div>
+
+<% else @pokemons.empty? %>
+  <p class="text-secondary">There are no Pokémon in the Pokédex for your search. Maybe we're not evolved enough 🙈</p>
+<% end %>

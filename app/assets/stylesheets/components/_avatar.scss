@@ -1,20 +1,31 @@
 .avatar {
-  width: 40px;
-  border-radius: 50%;
+  width: 50px; /* slightly increased size */
+  border-radius: 50%; /* fully rounded avatar */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); /* deeper shadow for a vintage photo frame effect */
+  border: 2px solid #d3b698; /* subtle brownish-beige border for a vintage feel */
+  background-color: #f2e0c9; /* soft beige background for a retro touch */
 }
+
 .avatar-large {
-  width: 56px;
-  border-radius: 50%;
+  width: 70px; /* slightly increased size */
+  border-radius: 50%; /* fully rounded avatar */
+  border: 3px solid #b08968; /* thicker vintage-inspired brownish border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* stronger shadow to resemble old photo borders */
+  background-color: #f2e0c9; /* soft vintage background */
 }
+
 .avatar-bordered {
-  width: 40px;
-  border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  width: 50px; /* slightly increased size */
+  border-radius: 50%; /* fully rounded avatar */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4); /* stronger shadow for emphasis */
+  border: 2px solid #ffffff; /* keep wide white border */
+  background-color: #f2e0c9; /* retro background color */
 }
+
 .avatar-square {
-  width: 40px;
-  border-radius: 0px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  width: 50px; /* slightly increased size */
+  border-radius: 8px; /* softly rounded corners for a vintage photo feel */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4); /* stronger shadow for depth */
+  border: 2px solid #ffffff; /* keep wide white border */
+  background-color: #f2e0c9; /* soft retro beige */
 }

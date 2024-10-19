@@ -1,0 +1,50 @@
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem; /* slightly larger padding for a spacious look */
+  border-radius: 10px; /* more rounded corners for a classic card style */
+  border: 8px solid #d1a573; /* warm brownish border for vintage look */
+  background-color: #f5e3c3; /* soft beige background */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* deeper shadow for depth */
+  position: relative;
+  color: #5e412f; /* dark brown text color for vintage style */
+  font-family: 'Georgia', serif; /* retro serif font */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-position 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.pokemon-card:hover {
+  /* 3D rotation animation */
+  transform: rotate3d(1, 0.5, 0.1, 30deg); /* the 3D flip effect */
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); /* stronger shadow on hover */
+  border-color: #c79655; /* darkened border on hover */
+  background-position: 100% 50%; /* smooth background transition */
+}
+
+.pokemon-image {
+  width: 90%; /* slightly smaller for better margin */
+  max-height: 14rem; /* reduced height for vintage proportions */
+  object-fit: contain;
+  border-radius: 5px; /* rounded corners for a vintage photo feel */
+  margin-bottom: 1rem; /* spacing between image and text */
+}
+
+.pokemon-card h2 {
+  font-size: 1.5rem; /* adjust font size for vintage look */
+  margin-bottom: 0.5rem;
+}
+
+.pokemon-card .element-type {
+  font-size: 1rem; /* smaller size for the element type */
+  color: #b08968; /* vintage-inspired brownish color */
+}
+
+.pokemon-card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
