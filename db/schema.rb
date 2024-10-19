@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[7.1].define(version: 2024_10_04_172952) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -71,4 +72,10 @@ ActiveRecord::Schema[7.1].define(version: 2024_10_04_172952) do
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "pokeballs", "pokemons"
   add_foreign_key "pokeballs", "trainers"
+=======
+ActiveRecord::Schema[7.1].define(version: 0) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+>>>>>>> 9d4f030315a4455f9b7c0f38860b71352f05467b
 end

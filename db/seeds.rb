@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # db/seeds.rb
 require 'json'
 require 'open-uri'
@@ -39,3 +40,14 @@ end
 
 
 puts "Finished! Created #{Trainer.count} trainers, #{Pokemon.count} pokemons, and #{Pokeball.count} pokeballs."
+=======
+# This file should ensure the existence of records required to run the application in every environment (production,
+# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
+# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
+#
+# Example:
+#
+#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
+#     MovieGenre.find_or_create_by!(name: genre_name)
+#   end
+>>>>>>> 9d4f030315a4455f9b7c0f38860b71352f05467b

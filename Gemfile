@@ -20,8 +20,11 @@ gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
+<<<<<<< HEAD
 gem 'cloudinary'
 
+=======
+>>>>>>> 9d4f030315a4455f9b7c0f38860b71352f05467b
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 

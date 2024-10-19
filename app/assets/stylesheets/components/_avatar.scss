@@ -1,4 +1,5 @@
 .avatar {
+<<<<<<< HEAD
   width: 50px; /* slightly increased size */
   border-radius: 50%; /* fully rounded avatar */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); /* deeper shadow for a vintage photo frame effect */
@@ -28,4 +29,24 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4); /* stronger shadow for depth */
   border: 2px solid #ffffff; /* keep wide white border */
   background-color: #f2e0c9; /* soft retro beige */
+=======
+  width: 40px;
+  border-radius: 50%;
+}
+.avatar-large {
+  width: 56px;
+  border-radius: 50%;
+}
+.avatar-bordered {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+.avatar-square {
+  width: 40px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+>>>>>>> 9d4f030315a4455f9b7c0f38860b71352f05467b
 }
